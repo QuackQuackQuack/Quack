@@ -1,8 +1,10 @@
 <template>
   <div>
-    <h1>Users</h1>
-    <p>TeamId : {{ $route.params.teamId}}</p>
-    <button @click="goHome">go home</button>
+    <h1 class="title">Users</h1>
+    <h2 class="subtitle po-rel">TeamId : {{ $route.params.teamId}}
+      <button class="button" @click="goHome">go home</button>
+    </h2>
+    <hr>
   </div>
 </template>
 <script>
@@ -19,3 +21,7 @@ export default {
   }
 }
 </script>
+<style scoped>
+.button {position:absolute;top:0px;right:10px;}
+.po-rel {position:relative;}
+</style>

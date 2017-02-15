@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <input type="text" :value="msg" @input="changeMessage">
-    <p>{{message}}</p>
-  </div>
+  <p class="control">
+    <input class="input" type="text" :value="msg" @input="changeMessage" placeholder="input text">
+  </p>
 </template>
 
 <script>

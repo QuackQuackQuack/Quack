@@ -1,5 +1,7 @@
 <template>
     <div>
+      <h1 class="title">Store Example</h1>
+      <hr>
       <label class="label">Add List</label>
       <div class="control is-grouped">
         <p class="control is-expanded">

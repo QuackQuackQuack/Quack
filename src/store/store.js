@@ -8,12 +8,12 @@ import mutations from './mutations'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-    state: {
-        todos: [],
-        newTodo: ''
-    },
-    plugins: [createPersistedState()],
-    mutations,
-    actions,
-    getters
+  state: {
+      todos: [],
+      newTodo: ''
+  },
+  plugins: [createPersistedState()],
+  mutations,
+  actions,
+  getters
 })

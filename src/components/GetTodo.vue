@@ -1,23 +1,23 @@
 <template>
-    <div>
-      <h1 class="title">Store Example</h1>
-      <hr>
-      <label class="label">Add List</label>
-      <div class="control is-grouped">
-        <p class="control is-expanded">
-          <input class="input" type="text" placeholder="Text input" :value="newTodo" @change="getTodo">
-        </p>
-        <p class="control">
-          <button class="button is-success" @click="addTodo">
-            Add
-          </button>
-        </p>
-      </div>
-      <div>
-        <CurrentTodos></CurrentTodos>
-        <CompletedTodos></CompletedTodos>
-      </div>
+  <div>
+    <h1 class="title">Store Example</h1>
+    <hr>
+    <label class="label">Add List</label>
+    <div class="control is-grouped">
+      <p class="control is-expanded">
+        <input class="input" type="text" placeholder="Text input" :value="newTodo" @change="getTodo">
+      </p>
+      <p class="control">
+        <button class="button is-success" @click="addTodo">
+          Add
+        </button>
+      </p>
     </div>
+    <div>
+      <CurrentTodos></CurrentTodos>
+      <CompletedTodos></CompletedTodos>
+    </div>
+  </div>
 </template>
 <script>
 import CurrentTodos from './CurrentTodos.vue';

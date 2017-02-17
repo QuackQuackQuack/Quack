@@ -4,16 +4,15 @@ export default {
     state.class = todo.class;
   },
   ADD_TODO(state){
-      state.todos.push({
-          body: state.newTodo,
-          class: state.class,
-          completed: false
-      })
-      console.log(state.todos);
+    state.todos.push({
+        body: state.newTodo,
+        class: state.class,
+        completed: false
+    })
   },
   REMOVE_TODO(state, todo){
-      var todos = state.todos
-      todos.splice(todos.indexOf(todo), 1)
+    var todos = state.todos
+    todos.splice(todos.indexOf(todo), 1)
 
   },
   COMPLETE_TODO(state, todo){

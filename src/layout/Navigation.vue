@@ -19,6 +19,7 @@
         <router-link to="/users/12" class="nav-item">Users 12</router-link>
         <router-link to="/storeExample" class="nav-item">StoreExample</router-link>
         <router-link to="/message" class="nav-item">Message</router-link>
+        <router-link to="/resource" class="nav-item">Resource</router-link>
       </div>
     </div>
   </nav>
